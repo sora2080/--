@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101117">
+    <meta name="description" content="Neon Eclipse，讓城市夜色與現場聲浪交會的五人樂團。">
+    <title>Neon Eclipse — 在夜色裡，聽見光</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="wordmark" href="#home" aria-label="Neon Eclipse 首頁">NE<span>✳</span></a>
+        <button class="menu-toggle" type="button" aria-label="開啟導覽選單" aria-expanded="false">
+            <span></span><span></span>
+        </button>
+        <nav class="site-nav" aria-label="主要導覽">
+            <a href="#story">樂團故事</a>
+            <a href="#members">團員介紹</a>
+            <a href="#tour">巡演場次</a>
+            <a href="#listen">新曲試聽</a>
+        </nav>
+        <a class="header-cta" href="#tour">巡演資訊 <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <img class="hero-image" src="1.jpg" alt="Neon Eclipse 在霓虹燈光下演出，觀眾揮舞著螢光棒" fetchpriority="high">
+            <div class="hero-shade"></div>
+            <div class="hero-content">
+                <p class="eyebrow hero-eyebrow"><span class="live-dot"></span> 五人樂團・來自台北</p>
+                <h1 id="hero-title">NEON<br><span>ECLIPSE</span></h1>
+                <p class="hero-copy">在夜色裡，聽見光。</p>
+                <a class="round-link" href="#story" aria-label="探索樂團故事"><span aria-hidden="true">↓</span></a>
+            </div>
+            <p class="hero-caption">LIVE FROM TAIPEI <span>／</span> EST. 2021</p>
+        </section>
+
+        <section class="story section-light" id="story" aria-labelledby="story-title">
+            <div class="section-inner story-layout reveal">
+                <div class="section-label"><span>01</span> THE STORY</div>
+                <div class="story-main">
+                    <p class="eyebrow">把夜晚唱成我們的形狀</p>
+                    <h2 id="story-title">城市睡著以後，<br>我們才正要開始。</h2>
+                    <div class="story-copy">
+                        <p>Neon Eclipse 成團於台北。五個原本走在不同節拍上的人，在一場深夜 jam session 裡，找到共同的光。</p>
+                        <p>把合成器的冷冽、吉他的失真，和那些說不出口的心事，揉成一首首屬於深夜的歌。天亮以前，讓我們陪你走一段。</p>
+                    </div>
+                    <div class="story-facts">
+                        <div><strong>2021</strong><span>成團於台北</span></div>
+                        <div><strong>5</strong><span>個不同的節拍</span></div>
+                        <div><strong>∞</strong><span>個還沒天亮的夜</span></div>
+                    </div>
+                </div>
+                <div class="story-aside" aria-hidden="true">
+                    <span class="orbit orbit-one"></span>
+                    <span class="orbit orbit-two"></span>
+                    <span class="orbit orbit-three"></span>
+                    <span class="orbit-core">NE<br><small>音浪之間</small></span>
+                    <span class="orbit-note">40° 59′ N<br>深夜訊號持續接收</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="members section-dark" id="members" aria-labelledby="members-title">
+            <div class="section-inner reveal">
+                <div class="section-topline"><div class="section-label"><span>02</span> THE BAND</div><p>五個人，一個共同頻率。</p></div>
+                <div class="members-heading">
+                    <h2 id="members-title">認識<br><span>NEON ECLIPSE</span></h2>
+                    <p>每一道光，都有自己的聲音。</p>
+                </div>
+                <div class="member-grid">
+                    <article class="member-card">
+                        <div class="member-portrait" style="--portrait-position: 0%" role="img" aria-label="RYO 的鼓手形象"></div>
+                        <div class="member-card-copy"><div class="member-card-topline"><span class="member-number">01</span><span class="member-symbol">◉</span></div><h3>RYO</h3><p class="member-role">DRUMS / 鼓手</p><p class="member-bio">把心跳變成節拍的人。</p></div>
+                    </article>
+                    <article class="member-card">
+                        <div class="member-portrait" style="--portrait-position: 25%" role="img" aria-label="HIRO 的貝斯手形象"></div>
+                        <div class="member-card-copy"><div class="member-card-topline"><span class="member-number">02</span><span class="member-symbol">〰</span></div><h3>HIRO</h3><p class="member-role">BASS / 貝斯手</p><p class="member-bio">低音裡，藏著整座城市。</p></div>
+                    </article>
+                    <article class="member-card">
+                        <div class="member-portrait" style="--portrait-position: 50%" role="img" aria-label="AMY 的主唱形象"></div>
+                        <div class="member-card-copy"><div class="member-card-topline"><span class="member-number">03</span><span class="member-symbol">✳</span></div><h3>AMY</h3><p class="member-role">VOCALS / 主唱</p><p class="member-bio">替沒說出口的情緒找到旋律。</p></div>
+                    </article>
+                    <article class="member-card">
+                        <div class="member-portrait" style="--portrait-position: 75%" role="img" aria-label="YUI 的吉他手形象"></div>
+                        <div class="member-card-copy"><div class="member-card-topline"><span class="member-number">04</span><span class="member-symbol">⌁</span></div><h3>YUI</h3><p class="member-role">GUITAR / 吉他手</p><p class="member-bio">用失真，寫下清醒的夢。</p></div>
+                    </article>
+                    <article class="member-card">
+                        <div class="member-portrait" style="--portrait-position: 100%" role="img" aria-label="MIA 的鍵盤手形象"></div>
+                        <div class="member-card-copy"><div class="member-card-topline"><span class="member-number">05</span><span class="member-symbol">✦</span></div><h3>MIA</h3><p class="member-role">KEYS / 鍵盤手</p><p class="member-bio">在每段沉默裡點亮星星。</p></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="tour section-light" id="tour" aria-labelledby="tour-title">
+            <div class="section-inner reveal">
+                <div class="section-topline"><div class="section-label"><span>03</span> ON THE ROAD</div><p>下一站，和你一起唱。</p></div>
+                <div class="tour-heading"><h2 id="tour-title">夜行，<span>現在出發。</span></h2><p>NEON AFTER DARK<br>2027 TOUR</p></div>
+                <div class="tour-countdown" data-countdown-date="2027-04-06" role="status" aria-live="polite">
+                    <div class="countdown-copy"><span>TAIPEI OPENING / APR 06</span><p data-countdown-label>距離台北首場還有</p></div>
+                    <p class="countdown-value"><strong data-countdown-days>--</strong><span>天</span></p>
+                    <p class="countdown-after" data-countdown-after hidden>巡演已啟程，下一站見。</p>
+                </div>
+                <div class="tour-list">
+                    <article class="tour-stop"><time datetime="2027-04-06"><span>APR</span><strong>06</strong><small>2027</small></time><div class="tour-city"><h3>台北</h3><p>Zepp New Taipei</p></div><span class="tour-type">TOUR OPENING</span><a class="ticket-link" href="https://www.google.com/maps/search/?api=1&amp;query=Zepp+New+Taipei" target="_blank" rel="noopener noreferrer">場地地圖 <span aria-hidden="true">↗</span></a></article>
+                    <article class="tour-stop"><time datetime="2027-04-10"><span>APR</span><strong>10</strong><small>2027</small></time><div class="tour-city"><h3>高雄</h3><p>LIVE WAREHOUSE 大庫</p></div><span class="tour-type">SOUTH SIDE</span><a class="ticket-link" href="https://www.google.com/maps/search/?api=1&amp;query=LIVE+WAREHOUSE+Kaohsiung" target="_blank" rel="noopener noreferrer">場地地圖 <span aria-hidden="true">↗</span></a></article>
+                    <article class="tour-stop"><time datetime="2027-04-17"><span>APR</span><strong>17</strong><small>2027</small></time><div class="tour-city"><h3>台中</h3><p>Legacy Taichung</p></div><span class="tour-type">FINAL NIGHT</span><a class="ticket-link" href="https://www.google.com/maps/search/?api=1&amp;query=Legacy+Taichung" target="_blank" rel="noopener noreferrer">場地地圖 <span aria-hidden="true">↗</span></a></article>
+                </div>
+                <p class="tour-note">場地與售票資訊以主辦單位公告為準。</p>
+            </div>
+        </section>
+
+        <section class="listen section-dark" id="listen" aria-labelledby="listen-title">
+            <div class="section-inner listen-layout reveal">
+                <div class="listen-copy">
+                    <div class="section-label"><span>04</span> FIRST LISTEN</div>
+                    <p class="eyebrow">新曲試聽・瀏覽器合成版本</p>
+                    <h2 id="listen-title">天亮之前<br>不要回頭。</h2>
+                    <p class="listen-description">把最後一班車窗外的光，留在一首歌裡。現在戴上耳機，聽聽這段為夜行者寫下的旋律。</p>
+                    <span class="track-tag"><span></span> NEON ECLIPSE ・ DEMO 01</span>
+                </div>
+                <div class="player" aria-label="新曲試聽播放器">
+                    <div class="record-wrap" aria-hidden="true"><div class="record"><div class="record-label">NE<br><span>01</span></div></div><span class="record-arm"></span></div>
+                    <div class="track-meta"><div><span class="track-overline">NEW DEMO / 2026</span><h3>天亮之前，不要回頭</h3></div><span class="track-duration">01:00</span></div>
+                    <div class="seek-row"><span class="time-current">00:00</span><input class="seek-slider" type="range" min="0" max="60" value="0" aria-label="歌曲播放進度"><span class="time-total">01:00</span></div>
+                    <div class="player-controls"><button class="play-button" type="button" aria-label="播放新曲" aria-pressed="false"><span class="play-icon"></span></button><span class="play-status" aria-live="polite">準備好，按下播放</span><label class="volume-control" aria-label="音量"><span aria-hidden="true">◖</span><input class="volume-slider" type="range" min="0" max="100" value="55" aria-label="音量"></label></div>
+                    <p class="audio-note">此為即時合成試聽，專案目前未附原始錄音。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer"><a class="wordmark footer-mark" href="#home">NE<span>✳</span></a><p>讓夜晚，繼續發光。</p><span>© 2026 NEON ECLIPSE</span></footer>
+</body>
+</html>
